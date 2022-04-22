@@ -197,6 +197,8 @@ margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+
 .about-icons-list{
     display: flex;
 }
@@ -205,7 +207,6 @@ width: 270px;
 height: 120px;
 background: #F5F4FA;
 border-radius: 4px;
-margin-bottom: 30px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -215,9 +216,11 @@ justify-content: center;
 margin-right: 30px;
 }
 
-.about-list{
-    display: flex;
+
+.about-item {
+    padding-top: 30px;
 }
+
 .about-title {
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -231,12 +234,11 @@ margin-right: 30px;
     letter-spacing: 0.03em;
     max-width: 270px;
 }
-.about-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 /* ---------------------PICTURE--------------------- */
 .picture {
+padding-top: 94px;
 padding-bottom: 94px;
 }
 
@@ -262,11 +264,12 @@ padding-bottom: 94px;
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #ffffff;
+    background-color: #F5F4FA;
 }
 
 .team-list {
 display: flex;
+background-color:var(--primary-white-color);
 }
 .team-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -279,10 +282,12 @@ display: flex;
     margin-right: 30px;
 
 }
-
-.img-names{
-    margin-bottom: 30px;
+.team-tamb{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+
 .team-names {
     font-weight: 500;
     font-size: 16px;
@@ -305,6 +310,7 @@ display: flex;
     display: flex;
     border-radius: 0px 0px 4px 4px;
     justify-content: center;
+    
 }
 
 
@@ -312,17 +318,17 @@ display: flex;
     margin-right: 10px;
 }
 
-    .team-icons-link {
+.team-icons-link {
     width: 44px;
     height: 44px;
     background-color: var(--primary-white-color);
-    margin-bottom: 30px;
     border-radius:50%;
     display: flex;
     align-items: center;
     justify-content: center;
     }
 .team-icons{
+
     fill: var(--icons-color);
 }
 
@@ -373,15 +379,15 @@ display: flex;
 
 .footer {
     background-color: #2F303A;
-   
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .footer .container {
     display: flex;
 }
 .container-contacts{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
     margin-right: 70px;
 }
 
@@ -392,8 +398,8 @@ display: flex;
 }
 
 .footer-invite {
-    padding-top: 72px;
-    padding-bottom: 100px;
+    padding-top: 12px;
+
 }
 .footer-icons-title {
     font-size: 14px;
@@ -423,9 +429,11 @@ display: flex;
     align-items: center;
     justify-content: center;
 }
-.footer-icons-link.twitter {
-    background-color: var(--accent-color);
+
+.footer-icons-link:hover, .footer-item:focus{
+    background-color: var(--accent-color) ;
 }
+
 .footer-icons {
     fill: var(--primary-white-color);
 }
