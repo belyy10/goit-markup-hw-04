@@ -281,7 +281,6 @@ display: flex;
 
 .team-item:not(:last-child){
     margin-right: 30px;
-
 }
 .team-tamb{
     padding-top: 30px;
