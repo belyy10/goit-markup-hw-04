@@ -74,7 +74,10 @@ img {
 .logo-web {
     color: var(--accent-color)
 }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* ---------------------HEADER--------------------- */
 .header {
@@ -193,10 +196,7 @@ margin-right: auto;
 
 }
 /* ---------------------ABOUT--------------------- */
-.about { 
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 
 
 .about-icons-list{
@@ -218,7 +218,7 @@ margin-right: 30px;
 
 
 .about-item {
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .about-title {
@@ -238,8 +238,7 @@ margin-right: 30px;
 
 /* ---------------------PICTURE--------------------- */
 .picture {
-padding-top: 94px;
-padding-bottom: 94px;
+padding-top: 0;
 }
 
 .picture-title, .team-title {
@@ -262,8 +261,6 @@ padding-bottom: 94px;
 
     /* ---------------------TEAM--------------------- */
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: #F5F4FA;
 }
 
@@ -340,10 +337,7 @@ display: flex;
 }
 
 /* ---------------------CLIENTS-------------------- */
-.clients{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .clients-title {
     font-size: 36px;
     line-height: 1.17;
@@ -385,6 +379,7 @@ padding-bottom: 60px;
 
 .footer .container {
     display: flex;
+    align-items: baseline;
 }
 .container-contacts{
     
@@ -397,10 +392,7 @@ padding-bottom: 60px;
     display: block;
 }
 
-.footer-invite {
-    padding-top: 12px;
 
-}
 .footer-icons-title {
     font-size: 14px;
     line-height: 1.14;
@@ -503,10 +495,7 @@ background-color: var(--accent-color)
 }
 
 /* ---------------------PORTFOLIO-------------------- */
-.portfolio {
-padding-top: 94px;
-padding-bottom: 94px;
-}
+
 .menu-list-btn:hover {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
